@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+  h1{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 130px;
+  padding-top: 60px;
+  line-height: 20px
+  }
+  
+  h2{
+  font-family: 'Lato', sans-serif;
+  line-height: 1px;
+  font-weight: lighter;
+  padding-left: 130px;
+  font-size: 20px;
+  margin-right: 100px
+  }
+  
+  p{
+      position:absolute;
+      top:250px;
+      left:330px;
+  }
+  
+
+.container {
+	height: 200%;
+}
+.name {
+	float: left;
+	width: 39%;
+	height: 100%;
+	background-color: #fff;
+    padding-right: 100px
+    
+}
+.sidebar {
+	float: left;
+	width: 50%;
+	height: 30%;
+	background-color: #fff;
+    padding-left: 100px;
+    padding-top: 30px
+    
+}
+
+.main {
+	float: right;
+	width: 0;
+	height: 100%;
+	background-color: white;
+}
+.content {
+	padding: px 100px;
+    display:grid
+}
+
+/*
+=====================
+	Sidebar
+=====================
+*/
+.sitename {
+	text-align: center;
+}
+
+.sitename a {
+	text-decoration: none;
+	color: white;
+}
+
+.sitename a:hover {
+	color: lightgrey;
+}
+
+ul {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+	border-bottom: 1px solid white;
+	padding-left: 30px;
+	line-height: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    font-size:14px
+}
+
+ul li:first-child {
+	border-top: 1px solid white;
+}
+
+ul li:hover {
+	text-decoration-color: antiquewhite
+}
+
+ul li a {
+	text-decoration: antiquewhite;
+	color: black;
+	display: block;
+	line-height: 30px;
+}
+
+.active {
+	background-color: #307b8b;
+}
+
+
+/*
+=====================
+	about
+=====================
+*/
+
+.p_start {
+	font-size: 26px;
+	font-weight: 700;
+}
+
+
+/*
+=====================
+	access
+=====================
+*/
+
+.map_image {
+	height: 300px;
+	width: auto;
+	border: 2px dotted lightgrey;
+}
+
+
+/*
+=====================
+	contact
+=====================
+*/
+
+td {
+	padding: 3%;
+}
+
+td:nth-of-type(1) {
+	width: 100px;
+	text-align: right;
+}
+
+input[type="text"] {
+	width: 240px;
+	height: 24px;
+}
+
+textarea {
+	width: 240px;
+}
+
+input[type="submit"] {
+	width: 120px;
+	height: 40px;
+	background-color: #eeeeee;
+	color: black;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.require {
+	color: orange;
+}
