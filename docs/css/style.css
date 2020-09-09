@@ -30,15 +30,15 @@ body {
   }
   h3{
   font-family: 'Lato', sans-serif;
-  line-height: 1px;
+  line-height: 10px;
   font-weight: bold;
   font-size: 25px;
   }
   p{
-      position:absolute;
-      top:250px;
-      left:330px;
-  }
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+}
   
 
 .container {
