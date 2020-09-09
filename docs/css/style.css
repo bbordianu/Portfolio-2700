@@ -1,132 +1,150 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 html {
-	height: 100%;
+    height: 100%;
 }
 
 body {
-	height: 100%;
-    width:100%;
-	margin: 20;
-	font-family: 'Lato', sans-serif;
-	font-size: 16px;
+    height: 100%;
+    width: 100%;
+    margin: 20;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
 }
-  h1{
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-  padding-left: 130px;
-  padding-top: 60px;
-  line-height: 20px
-  }
-  
-  h2{
-  font-family: 'Lato', sans-serif;
-  line-height: 1px;
-  font-weight: lighter;
-  padding-left: 130px;
-  font-size: 20px;
-  margin-right: 100px
-  }
-  h3{
-  font-family: 'Lato', sans-serif;
-  line-height: 10px;
-  font-weight: bold;
-  font-size: 25px;
-  }
-  p{
-  font-family: 'Lato', sans-serif;
-  font-weight: lighter;
-  font-size: 15px;
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 130px;
+    padding-top: 60px;
+    line-height: 20px
 }
-  
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    line-height: 1px;
+    font-weight: lighter;
+    padding-left: 130px;
+    font-size: 20px;
+    margin-right: 100px
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    line-height: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
 
 .container {
-	height: 100%;
-    margin:20px;
+    height: 100%;
+    margin: 20px;
 }
+
 .name {
-	float: left;
-	width: 100%;
-	height: 100%;
-	background-color: #fff;
- 
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+
 }
+
 .sidebar {
-	float: left;
-	width: 25%;
-	height: 100%;
-	background-color: #fff;
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-color: #fff;
     padding-left: 100px;
     padding-top: 30px;
-    
+
 }
 
 .main {
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: max-content;
     grid-gap: 10px;
     grid-auto-flow: dense;
-    padding-right:60px;
+    padding-right: 60px;
 }
 
 .gallery-item {
-    width:100%;
-    height:100%;
-    position:relative;
-}
-.gallery-item .image{
-    width:100%;
-    height:100%;
-    overflow:hidden;
-}
-.gallery-item .image img{
-    width:100%;
-    height:100%;
-    object-fit: cover;
-    object-position:50% 50%;
-}
-.content {
-	padding: px 100px;
-    display:grid
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
 
-.w-1{
+.gallery-item .image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gallery-item .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.content {
+    padding: px 100px;
+    display: grid
+}
+
+.w-1 {
     grid-column: span 1;
 }
-.w-2{
+
+.w-2 {
     grid-column: span 2;
 }
-.w-3{
+
+.w-3 {
     grid-column: span 3;
 }
-.w-4{
+
+.w-4 {
     grid-column: span 4;
 }
-.w-5{
+
+.w-5 {
     grid-column: span 5;
 }
-.w-6{
+
+.w-6 {
     grid-column: span 6;
 }
 
-.h-1{
+.h-1 {
     grid-row: span 1;
 }
-.h-2{
+
+.h-2 {
     grid-row: span 2;
 }
-.h-3{
+
+.h-3 {
     grid-row: span 3;
 }
-.h-4{
+
+.h-4 {
     grid-row: span 4;
 }
-.h-5{
+
+.h-5 {
     grid-row: span 5;
 }
-.h-6{
+
+.h-6 {
     grid-row: span 6;
 }
 
@@ -135,54 +153,36 @@ body {
 	Sidebar
 =====================
 */
-.sitename {
-	text-align: center;
-}
-
-.sitename a {
-	text-decoration: none;
-	color: white;
-}
-
-.sitename a:hover {
-	color: lightgrey;
-}
-
 ul {
-	width: 100%;
-	margin: 0;
-	padding: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 ul li {
-	list-style: none;
-	border-bottom: 1px solid white;
-	padding-left: 30px;
-	line-height: 40px;
+    list-style: none;
+    border-bottom: 1px solid white;
+    padding-left: 30px;
+    line-height: 40px;
     font-family: 'Lato', sans-serif;
     font-weight: lighter;
-    font-size:15px
+    font-size: 15px
 }
 
 ul li:first-child {
-	border-top: 1px solid white;
+    border-top: 1px solid white;
 }
 
 ul li:hover {
-	text-decoration-color: antiquewhite
+    text-decoration-line: none
 }
 
 ul li a {
-	text-decoration: antiquewhite;
-	color: black;
-	display: block;
-	line-height: 30px;
+    text-decoration-line: none;
+    color: black;
+    display: block;
+    line-height: 30px;
 }
-
-.active {
-	background-color: #307b8b;
-}
-
 
 /*
 =====================
@@ -192,43 +192,8 @@ ul li a {
 
 .about-column {
     float: right;
-    max-width:80%;
+    max-width: 80%;
     padding-left: 10px;
 }
 
 /*
-=====================
-	contact
-=====================
-*/
-
-td {
-	padding: 3%;
-}
-
-td:nth-of-type(1) {
-	width: 100px;
-	text-align: right;
-}
-
-input[type="text"] {
-	width: 240px;
-	height: 24px;
-}
-
-textarea {
-	width: 240px;
-}
-
-input[type="submit"] {
-	width: 120px;
-	height: 40px;
-	background-color: #eeeeee;
-	color: black;
-	font-weight: 700;
-	font-size: 14px;
-}
-
-.require {
-	color: orange;
-}
