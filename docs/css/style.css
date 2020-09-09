@@ -28,7 +28,12 @@ body {
   font-size: 20px;
   margin-right: 100px
   }
-  
+  h3{
+  font-family: 'Lato', sans-serif;
+  line-height: 1px;
+  font-weight: bold;
+  font-size: 25px;
+  }
   p{
       position:absolute;
       top:250px;
@@ -185,24 +190,11 @@ ul li a {
 =====================
 */
 
-.p_start {
-	font-size: 26px;
-	font-weight: 700;
+.about-column {
+    float: right;
+    max-width:80%;
+    padding-left: 10px;
 }
-
-
-/*
-=====================
-	access
-=====================
-*/
-
-.map_image {
-	height: 300px;
-	width: auto;
-	border: 2px dotted lightgrey;
-}
-
 
 /*
 =====================
