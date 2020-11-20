@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="description" content="A page for exploring basic HTML documents">
     <link rel="stylesheet" href="css/style.css">
@@ -22,6 +23,7 @@
                 opacity: 1;
             }
         }
+
     </style>
 </head>
 </head>
@@ -33,27 +35,30 @@
             <h2>Graphic Designer</h2>
             <div class="sidebar">
                 <ul>
-                    <li><a href="marketing.html"><i class="fas fa-home"></i>Marketing</a></li>
+                    <li><a href="index.html"><i class="fas fa-home"></i>Marketing</a></li>
                     <li><a href="art-prints.html"><i class="fas fa-user"></i>Art Prints</a></li>
                     <li><a href="personal-projects.html"><i class="fas fa-address-card"></i>Personal Projects</a></li>
                     <li><a href="about.html"><i class="fas fa-project-diagram"></i>About Me</a></li>
                 </ul>
             </div>
-            <div class="main">
-                <div class="gallery-container w-1 h-1">
-                    <div class="gallery-item">
-                        <div class="image">
-                            <img src="img/aboutimg.jpg" alt="about">
-                        </div>
-                    </div>
+            <div class="contact">
+                <p2>Client Inquiries</p2><br />
+
+                <form action="https://formspree.io/f/mbjpkbpd" method="POST" id="my-form"> 
+                
+                <div class="login">
+                    <input type="text" placeholder= "Your Name" id="YourName" name="YourName" class="input">
+                    <input type="email" placeholder="Your Email Address" id="email" name="email" name class="input">
                 </div>
-                <div class="about-column">
-                    <h3>About Bianca</h3>
-                    <p> Bianca is currently a Media and Design student at Georgia Tech and pursuing a minor in Industrial Design. Her focus is heavily on graphic design and social media, but she enjoys learning about design in a variety of mediums and industries. </p>
-                    <a href="contact.html" class="btn">Contact</a>
-                    <p></p>
+                <div class="msg">
+                    <textarea class="area" placeholder="Leave a Message" name="message" id="message"cols="30" rows="10"></textarea>
                 </div>
+
+                    <button type="submit">Send Message</button>
+                </form>
+                <div id="status"></div>
             </div>
         </div>
-
-</body></html>
+        <script src="script.js"></script>
+        </body>
+</html>
