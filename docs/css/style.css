@@ -294,7 +294,7 @@ button[type="submit"]:focus {
   animation: status 4s ease forwards;
 }
 #status.error {
-  background-color: rgb(250, 129, 92);
+  background-color: transparent;
   color: white;
   animation: status 4s ease forwards;
 }
