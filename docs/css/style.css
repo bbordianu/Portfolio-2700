@@ -74,9 +74,9 @@ p2 {
 }
 
 .sidebar {
+    display:block;
     float: left;
     width: 25%;
-    height: 100%;
     background-color: #fff;
     padding-left: 100px;
     padding-top: 30px;
@@ -341,3 +341,8 @@ button[type="submit"]:focus {
 ::-webkit-input-placeholder{
   font-family: 'Lato';
 }
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  .sidebar ul li, .main, .right {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
