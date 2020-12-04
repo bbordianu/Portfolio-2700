@@ -1,1 +1,5 @@
 theme: jekyll-theme-minimal
+plugins:
+  - jekyll-press
+  
+$ gem install jekyll-press
