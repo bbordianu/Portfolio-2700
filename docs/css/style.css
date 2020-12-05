@@ -428,6 +428,7 @@ button[type="submit"]:focus {
 
     .sidebar ul li {
         display: inline-block;
+        font-size: 17px;
     }
 
     ul li:first-child {
