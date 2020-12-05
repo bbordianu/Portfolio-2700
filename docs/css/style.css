@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
 html {
     height: 100%;
 }
@@ -13,7 +14,7 @@ body {
 
 a {
     text-decoration: none;
-    color:#000;
+    color: #000;
 }
 
 h1 {
@@ -51,13 +52,13 @@ p {
 }
 
 p2 {
-  text-align: left;
-  letter-spacing: 1px;  
-  font-size: 20px;
-  margin-bottom: 20px;
-  color: #000;
-  font-family: 'Lato', sans-serif;
-  font-weight: lighter;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
 }
 
 .container {
@@ -66,7 +67,7 @@ p2 {
 }
 
 .name {
-    display:block;
+    display: block;
     float: left;
     width: 100%;
     height: 100%;
@@ -74,7 +75,7 @@ p2 {
 }
 
 .sidebar {
-    display:block;
+    display: block;
     float: left;
     width: 25%;
     background-color: #fff;
@@ -94,12 +95,13 @@ p2 {
     padding-right: 60px;
 }
 
-.contact{
-  max-width: 80%;
-  max-height: 100%;
-  padding: 0px;
-  box-sizing: border-box;
+.contact {
+    max-width: 80%;
+    max-height: 100%;
+    padding: 0px;
+    box-sizing: border-box;
 }
+
 .gallery-item {
     width: 100%;
     height: 100%;
@@ -118,6 +120,7 @@ p2 {
     object-fit: cover;
     object-position: 50% 50%;
 }
+
 .about-item {
     width: 100%;
     height: 100%;
@@ -136,6 +139,7 @@ p2 {
     object-fit: cover;
     object-position: 50% 50%;
 }
+
 .content {
     padding: px 100px;
     display: grid
@@ -244,36 +248,36 @@ ul li a {
 =====================
 */
 .input,
-.msg .area{
-  width: 56%;
-  height: 60%;
-  padding: 20px;
-  margin-bottom: 25px;
-  border: 2px solid #e9eaea;
-  background: #f2f2f2;
-  font-size: 14px;
-  border-radius: 5px;
-  outline: none;
-  box-sizing: border-box;
-  font-family: 'lato', sans-serif;
+.msg .area {
+    width: 56%;
+    height: 60%;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 2px solid #e9eaea;
+    background: #f2f2f2;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'lato', sans-serif;
 }
 
-.login .input{
-  width: 27%;
-  float: left;
-  margin-top: 10px;
+.login .input {
+    width: 27%;
+    float: left;
+    margin-top: 10px;
 }
 
-.login .input:last-child{
-  margin-left: 2%;
+.login .input:last-child {
+    margin-left: 2%;
 }
 
-.msg .area{
-  height: 30%;
-  width:56%;
+.msg .area {
+    height: 30%;
+    width: 56%;
 }
 
-.btn{
+.btn {
     display: inline-block;
     text-align: center;
     text-decoration: none;
@@ -284,7 +288,7 @@ ul li a {
     font-family: 'Lato', sans-serif;
     border-radius: 2px;
     padding: 12px 18px;
-    outline:0;
+    outline: 0;
     border: 2px solid #e9eaea;
 }
 
@@ -299,7 +303,7 @@ button[type="submit"] {
     font-family: 'Lato', sans-serif;
     border-radius: 2px;
     padding: 12px 18px;
-    outline:0;
+    outline: 0;
     border: 2px solid #e9eaea;
 }
 
@@ -314,8 +318,8 @@ button[type="submit"]:hover {
     font-family: 'Lato', sans-serif;
     border-radius: 2px;
     padding: 12px 18px;
-    outline:0;
-    cursor:pointer;
+    outline: 0;
+    cursor: pointer;
 }
 
 button[type="submit"]:active {
@@ -329,7 +333,7 @@ button[type="submit"]:active {
     font-family: 'Lato', sans-serif;
     border-radius: 2px;
     padding: 12px 18px;
-    outline:0;
+    outline: 0;
 }
 
 button[type="submit"]:focus {
@@ -343,109 +347,142 @@ button[type="submit"]:focus {
     font-family: 'Lato', sans-serif;
     border-radius: 2px;
     padding: 12px 18px;
-    outline:0;
+    outline: 0;
 }
 
 .input:focus,
-.msg .area:focus{
-  border: 2px solid #000;
+.msg .area:focus {
+    border: 2px solid #000;
 }
 
 #status.success {
     margin-top: 15px;
 }
+
 #status.error {
     margin-top: 15px;
 }
-::-webkit-input-placeholder{
-  font-family: 'Lato';
+
+::-webkit-input-placeholder {
+    font-family: 'Lato';
 }
+
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width:1200px) {
-  .sidebar, .main, .contact  {
-    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
-h1 {
-  padding-left: 0;
-  margin-right: 0;
-  text-align: center;
+
+    .sidebar,
+    .main,
+    .contact {
+        width: 100%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+
+    h1 {
+        padding-left: 0;
+        margin-right: 0;
+        text-align: center;
 
     }
-h2 {
-  padding-left: 0;
-  margin-right: 0;
-  text-align: center;
+
+    h2 {
+        padding-left: 0;
+        margin-right: 0;
+        text-align: center;
     }
-.contact {
-  float:none;
-  text-align: center;
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
-  box-sizing: border-box;
-  margin-left:0%;
- }
-.login .input{
-  width: 27%;
-  float: none;
-  margin-top: 30px;
-  display:inline-block;
-}
-.login .input:first-child{
-  margin-bottom:10px;
-  margin-left: 0;
-  width:56%;
-}
-.login .input:last-child{
-  margin-top:10px;
-  margin-bottom: 20px;
-  margin-left: 0;
-  width:56%;
-}
-.sidebar {
-  display:block;
-  border-bottom: 20px solid #fff;
-  padding-left: 0px;
-  padding-top: 20px;
-  padding-right: 0px;
-  margin-bottom: 0%;
-}
 
-.sidebar ul {
-  text-align:center;
-  margin-bottom:0px;
-}
+    p2 {
+        font-weight: normal;
+    }
 
-.sidebar ul li{
-  display:inline-block;
-}
-.about-column {
-    float: none;
-    max-width: 100%;
-    max-height: 100%;
-    padding-left: 0px;
-}
-.gallery-item {
-    width: 100%;
-    height: 100%;
-    position: center;
-}
+    .contact {
+        float: none;
+        text-align: center;
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        box-sizing: border-box;
+        margin-left: 0%;
+    }
 
-.gallery-item .image {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
+    .login .input {
+        width: 27%;
+        float: none;
+        margin-top: 30px;
+        display: inline-block;
+    }
 
-.gallery-item .image img {
-    width: 100%;
-    height: 100%;
-    object-position: 50% 50%;
-}
-.w-1 {
-    grid-column: span 2;
-}
-.h-1 {
-    grid-row: span 2:
-}
+    .login .input:first-child {
+        margin-bottom: 10px;
+        margin-left: 0;
+        width: 86%;
+    }
+
+    .login .input:last-child {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 0;
+        width: 86%;
+    }
+
+    .msg .area {
+        height: 30%;
+        width: 86%;
+    }
+
+    .sidebar {
+        display: block;
+        border-bottom: 20px solid #fff;
+        padding-left: 0px;
+        padding-top: 20px;
+        padding-right: 0px;
+        margin-bottom: 0%;
+        float: none;
+        text-align: center;
+    }
+
+    .sidebar ul {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .sidebar ul li {
+        display: inline-block;
+    }
+
+    ul li:first-child {
+        padding-left: 0;
+    }
+
+    .about-column {
+        float: none;
+        max-width: 100%;
+        max-height: 100%;
+        padding-left: 0px;
+    }
+
+    .gallery-item {
+        width: 100%;
+        height: 100%;
+        position: center;
+    }
+
+    .gallery-item .image {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .gallery-item .image img {
+        width: 100%;
+        height: 100%;
+        object-position: 50% 50%;
+    }
+
+    .w-1 {
+        grid-column: span 2;
+    }
+
+    .h-1 {
+        grid-row: span 2:
+    }
 }
