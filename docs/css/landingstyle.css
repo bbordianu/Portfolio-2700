@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;500&display=swap');
 
+@font-face {
+    font-family: 'Futura2';
+    src: url('d/Users/Bianca/Documents/GitHub/Portfolio-2700/docs/css/futura medium bt.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+}
+
 html,
 body {
     margin: 0;
@@ -87,3 +93,15 @@ h2 {
     background-color: #fff;
     color: #000;
     border: 2px solid white;
+
+    @media screen and (max-width:800px) {
+        .content h1 {
+            font-family: 'Futura2', sans-serif;
+            color: #fff;
+            font-size: 40px;
+            font-weight: normal;
+            padding-top: 0px;
+            margin: 0px;
+            letter-spacing: 10px;
+        }
+    }
