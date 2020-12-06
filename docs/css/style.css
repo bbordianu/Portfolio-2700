@@ -359,6 +359,7 @@ button[type="submit"]:focus {
         max-height: 100%;
         box-sizing: border-box;
         margin-left: 0%;
+        padding-bottom: 30px;
     }
 
     .login .input {
