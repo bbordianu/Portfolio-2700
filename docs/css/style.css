@@ -349,31 +349,7 @@ button[type="submit"]:focus {
     font-family: 'Lato';
 }
 
-/* Use a media query to add a break point at 800px: */
 @media screen and (max-width:1200px) {
-
-    .sidebar,
-    .contact {
-        width: 100%;
-        /* The width is 100%, when the viewport is 800px or smaller */
-    }
-
-    h1 {
-        padding-left: 0;
-        margin-right: 0;
-        text-align: center;
-
-    }
-
-    h2 {
-        padding-left: 0;
-        margin-right: 0;
-        text-align: center;
-    }
-
-    p2 {
-        font-weight: normal;
-    }
 
     .contact {
         float: none;
@@ -409,6 +385,33 @@ button[type="submit"]:focus {
         height: 30%;
         width: 86%;
     }
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:1200px) {
+
+    .sidebar,
+    .contact {
+        width: 100%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+
+    h1 {
+        padding-left: 0;
+        margin-right: 0;
+        text-align: center;
+
+    }
+
+    h2 {
+        padding-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    p2 {
+        font-weight: normal;
+    }
 
     .sidebar {
         display: block;
@@ -428,7 +431,7 @@ button[type="submit"]:focus {
 
     .sidebar ul li {
         display: inline-block;
-        font-size: 12px;
+        font-size: 11px;
     }
 
     ul li:first-child {
