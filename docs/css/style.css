@@ -85,6 +85,12 @@ p2 {
     margin-bottom: 20%;
 
 }
+.gall {
+    display: block;
+    float: left;
+    width: 65%;
+    margin-bottom: 5%;
+}
 
 .main {
     display: grid;
@@ -387,12 +393,14 @@ button[type="submit"]:focus {
         width: 86%;
     }
 }
-
+.elfsight-app-40e52127-3077-4d5f-8c73-25624caf2dab {
+    margin-right:3%;
+}
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width:1200px) {
 
     .sidebar,
-    .contact {
+    .contact, .elfsight-app-40e52127-3077-4d5f-8c73-25624caf2dab {
         width: 100%;
         /* The width is 100%, when the viewport is 800px or smaller */
     }
